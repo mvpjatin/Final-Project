@@ -1,0 +1,104 @@
+/*reset*/
+html, body, div, span, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, a, abbr, acronym, address, code, 
+del, dfn, em, img, q, dl, dt, dd, 
+ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Remove the default list styles */
+
+ol, ul {
+    list-style: none;
+}
+
+/* Set the background to white */
+
+body {
+    background-color: #fff;
+}
+
+/*normalize*/
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+}
+
+/* set the margin 0 for body */
+
+body {
+    margin: 0;
+}
+
+a {
+    background-color: transparent;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+img {
+    border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+:-moz-ui-invalid {
+    box-shadow: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+

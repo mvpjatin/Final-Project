@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="CSS project">
+    <meta name="keywords" content="html css js">
+    <meta name="author" content="Jatin Jatin">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffcc00">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalise.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Orange Canada | Pre-Owned Mobile</title>
+
+</head>
+
+<body>
+    <!--header-->
+    <header class="h">
+        <nav class="n">
+            <ul class="n-ul">
+                <li class="n-ul-li1 n-ul"><a href="index.html">ORANGE</a></li>
+                <li class="n-ul-li2 n-ul"><a href="html/about.html">About</a></li>
+                <li class="n-ul-li3 n-ul"><a href="html/product.html">Product</a></li>
+                <li class="n-ul-li4 n-ul"><a href="html/contact.html">Contact</a></li>
+                <li class="n-ul-li5 n-ul"><a href="#support">Support</a></li>
+                <li class="n-ul-li6 n-ul"><a href="#search"><img src="images/search.png" alt="SVG image"></a></li>
+                <li class="n-ul-li7 n-ul"><img id="cart-icon" src="images/cart.png" alt="cart image"></li>
+                <li class="n-ul-li8 n-ul"><img src="images/person.png" alt="person image"></li>
+            </ul>
+        </nav>
+    </header>
+    <!--main-->
+    <main>
+        <!--section or div 1-->
+        <div class="s-1">
+            <video src="videos/smartphone.webm" poster="images/video-poster.jpg" controls autoplay muted loop>
+                Your browser does not support the video tag.
+            </video>
+            <img src="images/pic.png" alt="phone">
+        </div>
+
+        <!--section 2-->
+        <section class="s-2" id="product">
+            <h1>Newest Offers and Innovations</h1>
+            <ul class="s-2-ul">
+                <li class="s-2-ul-li1"><a href="#recommended">Recommended</a></li>
+                <li class="s-2-ul-li2"><a href="#mobile">Mobile</a></li>
+                <li class="s-2-ul-li3"><a href="#computers">Computers</a></li>
+            </ul>
+
+            <div class="images recommended" id="recommended">
+                <img src="images/smartphone1.png" alt="phone" id="smartphone1">
+                <img src="images/smartphone2.png" alt="phone">
+            </div>
+
+            <div class="images mobile" id="mobile">
+                <img src="images/smartphone3.jpg" alt="tablet" id="tablet">
+                <img src="images/smartphone4.png" alt="phone" id="smartphone4">
+            </div>
+
+            <div class="images computers" id="computers">
+                <img src="images/laptop.png" alt="laptop">
+                <img src="images/desktop.png" alt="desktop">
+            </div>
+        </section>
+
+        <!--section 3-->
+        <section class="s-3" id="search">
+            <h1>Looking for something else - search Google</h1>
+            <form onsubmit="searchGoogle(event)">
+                <input type="text" id="search-input" placeholder="Search on Google">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <!--section 4-->
+        <section class="s-4" id="contact">
+            <h1 id="support">Contact Us</h1>
+            <form action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="phone">Phone</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </section>
+
+        <!--section 5-->
+        <section class="s-5">
+            <h1 id="about">About</h1>
+            <p>We are a trusted online store for preowned mobiles. We are dedicated to providing our customers with
+                high-quality preowned mobiles at affordable prices. We understand that buying a preowned mobile can be a
+                risky decision, but we ensure that all of our preowned mobiles are thoroughly tested and certified to be
+                in good working condition. We have a team of experienced technicians who check each mobile for any
+                defects or issues and make sure it's in the best possible condition before we offer it for sale.</p>
+            <p>We have a wide range of preowned mobiles from all major brands, including Apple, Samsung, Xiaomi,
+                OnePlus, and more. We also offer a warranty on all of our preowned mobiles so that you can have peace of
+                mind knowing that you're making a safe and wise purchase.</p>
+            <p>At Preowned Mobiles, we believe in providing excellent customer service. Our team is always ready to help
+                you with any questions or concerns you may have. We pride ourselves on our commitment to our customers,
+                and we always strive to exceed your expectations.</p>
+            <p>Thank you for considering Preowned Mobiles for your next mobile purchase. We look forward to serving you
+                and providing you with the best preowned mobiles and customer service.</p>
+            <img src="images/about1.jpg" alt="person1">
+            <img src="images/about2.jpg" alt="person2">
+            <img src="images/about3.jpg" alt="person3">
+            <p>Sarah Williams is the CEO of Orange, with over 20 years of experience in the telecommunications industry.
+                He
+                is a visionary leader who has driven the company's growth and expansion into new markets.</p>
+            <p>David Lee is the Chief Technology Officer of Orange, leading the company's innovation and technology
+                initiatives. He has a strong track record of developing cutting-edge technologies and has been
+                instrumental in Orange's success in the telecom industry.</p>
+            <p>Mary Johnson is the CFO of Orange, responsible for managing the company's finances and investments. With
+                a background in accounting and finance, she brings a wealth of knowledge and expertise to the team.</p>
+        </section>
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-column">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Team Members</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="#product">Mobiles</a></li>
+                    <li><a href="#product">Laptops</a></li>
+                    <li><a href="#product">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>123 Main St.</li>
+                    <li>Anytown, USA</li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Email: info@mywebsite.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--js-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

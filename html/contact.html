@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="CSS project">
+    <meta name="keywords" content="html css js">
+    <meta name="author" content="Jatin Jatin">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffcc00">
+    <link rel="stylesheet" type="text/css" href="../css/normalise.css">
+    <link rel="stylesheet" type="text/css" href="../css/style1.css">
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <title>Orange Canada | Pre-Owned Mobile</title>
+</head>
+
+<body>
+
+    <!--header-->
+    <header id="h" class="h">
+        <nav id="n" class="n">
+        </nav>
+    </header>
+
+    <!--main-->
+    <main>
+        <!--section 1-->
+        <section class="s">
+            <!--contact information-->
+            <h1>CONTACT US</h1>
+            <p>"Welcome to Orange Preowned Mobile Company! We are a team of tech enthusiasts who believe that everyone
+                deserves a high-quality smartphone without having to pay the full price for it. Our mission is to
+                provide preowned smartphones that are as good as new at a fraction of the cost. We take pride in the
+                quality of our products and guarantee that all our phones have been thoroughly tested and certified
+                before being sold. Our commitment to customer satisfaction extends beyond the purchase - we offer
+                support and maintenance services to ensure that your phone remains in top condition for as long as
+                possible. Thank you for choosing Orange Preowned Mobile Company, we look forward to serving you!"</p>
+            <p><strong>Email:</strong> contact@orangepreowned.com</p>
+            <p><strong>Address:</strong> 123 Main Street, Anytown, USA</p>
+            <ul class="s-ul">
+                <li>Less than 12-hour response to your question.</li>
+                <li>Thoroughness and expertise of our customer service team.</li>
+                <li>Plan of action summarized in an email follow up.</li>
+            </ul>
+            <h2>How May We Help You?</h2>
+            <!--form to fill out-->
+            <form action="../php/action_page.php" method="post" target="_blank">
+                <label for="fname">First Name <span class="star">*</span></label>
+                <input type="text" id="fname" name=fname required>
+                <label for="lname">Last Name <span class="star">*</span></label>
+                <input type="text" id="lname" name=lname required>
+                <label for="email">Email Address<span class="star">*</span> </label>
+                <input type="text" id="email" name=email required>
+                <label for="phone">Phone No </label>
+                <input type="number" id="phone" name=phone required>
+                <label for="problems">What can we assist you with?<span class="star">*</span></label>
+                <select id="problems" name="problem">
+                    <option value="product-inquiry">Product inquiry</option>
+                    <option value="technical-support">Technical support</option>
+                    <option value="billing-question">Billing question</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="comment">Message <span class="star">*</span></label>
+                <textarea id="comment" name="comment"></textarea>
+                <input type="checkbox">
+                <span class="sign">Sign me up for exclusive offers and promotions.</span>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <!--section 2-->
+        <section class="img">
+            <h1>empty</h1>
+            <img src="../images/contact.jpeg" alt="contact">
+        </section>
+
+        <!--section 3-->
+        <section class="s-3" id="search">
+            <h1 id="support">Looking for something else - search Google</h1>
+            <form onsubmit="searchGoogle(event)">
+                <input type="text" id="search-input" placeholder="Search on Google">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </main>
+
+    <!--footer-->
+    <footer id="footer" class="footer">
+    </footer>
+    <!--js-->
+    <script src="../js/script1.js"></script>
+
+</body>
+
+</html>
